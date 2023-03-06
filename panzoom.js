@@ -355,16 +355,16 @@
             e.preventDefault();
             e.stopPropagation();
         },
-        maxScale: 2,
-        minScale: 0.09,
+        maxScale: 4,
+        minScale: 0.125,
         overflow: 'hidden',
         panOnlyWhenZoomed: false,
         pinchAndPan: false,
         relative: false,
         setTransform: setTransform,
-        startX: -2000,
-        startY: -5500,
-        startScale: 0.09,
+        startX: 0,
+        startY: 0,
+        startScale: 1,
         step: 0.3,
         touchAction: 'none'
     };
