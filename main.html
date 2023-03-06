@@ -205,7 +205,7 @@
 <!-- <script src="script.js"></script> -->
 <script>
 const elem = document.getElementById('container')
-const panzoom = Panzoom(elem, {minScale:0.09, maxScale:2, startScale:0.09, startX:-3500});
+const panzoom = Panzoom(elem, {minScale:0.09, maxScale:2, startScale:0.09, startX:-200});
 elem.parentElement.addEventListener('wheel', panzoom.zoomWithWheel);
 // elem.addEventListener('panzoomchange', (event) => {
 //   console.log(event.detail) // => { x: 0, y: 0, scale: 1 }
