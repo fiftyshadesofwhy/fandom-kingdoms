@@ -362,8 +362,8 @@
         pinchAndPan: false,
         relative: false,
         setTransform: setTransform,
-        startX: -3550,
-        startY: -5450,
+        startX: -2000,
+        startY: -5500,
         startScale: 0.09,
         step: 0.3,
         touchAction: 'none'
