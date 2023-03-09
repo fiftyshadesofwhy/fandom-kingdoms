@@ -279,3 +279,17 @@ a {
 #dragon:hover {
     cursor:pointer;
 }
+
+#strip {
+    width: 20vw;
+    position:absolute;
+    top:0;
+    right: 5vw;
+}
+
+#pprstrip {
+    width: 15vw;
+    position:absolute;
+    top:0;
+    right: 5vw;
+}

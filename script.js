@@ -22,9 +22,9 @@ const countryData = {
     },
 
     "at": {
-        image: "banners/.png",
+        image: "banners/adventuretime.png",
         title: "Adventure Time",
-        desc: "Dolor",
+        desc: "Adventure Time was a cartoon that aired on Cartoon Network from 2010-2018. The series followed Finn the Human and Jake the Dog, and their adventures around the post-apocalyptic Land of Ooo. Jake is Finn’s adoptive brother and best friend, who also has the ability to change his size and shape at will. Together they meet many colorful characters like Princess Bubblegum, the Ice King, Marceline, and BMO.",
         more: "https://adventuretime.fandom.com/wiki/Adventure_Time"
     },
 
@@ -71,9 +71,9 @@ const countryData = {
     },
 
     "ncfom": {
-        image: "banners/.png",
+        image: "banners/ncfom.png",
         title: "No Country For Old Men",
-        desc: "cattle pile driver > captive bolt pistol",
+        desc: "No Country For Old Men is a 2007 film set in 1980s Texas desert and follows 3 main characters: Llewelyn Moss, a Vietnam veteran who happens upon $2M in the desert in the aftermath of a drug deal gone wrong; Anton Chigurh, a hitman who intends to get the $2M back by any means necessary; and Ed Tom Bell, a local sheriff who is investigating the crime.",
         more: "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
     },
 
@@ -85,9 +85,9 @@ const countryData = {
     },
 
     "sand": {
-        image: "banners/.png",
+        image: "banners/sandman.png",
         title: "Sandman",
-        desc: "Neil Gaiman strikes again",
+        desc: "Sandman is a Netflix show, based on a DC comic of the same name written by Neil Gaiman. The series follows Morpheus, otherwise known as Dream, who is the titular Sandman. In 1916, he was captured in an occultist ritual and imprisoned. After 106 years, however, he finally escapes. The series thus follows him as he attempts to restore order to his realm: the Dreaming.",
         more: "https://en.wikipedia.org/wiki/The_Sandman_(TV_series)"
     },
 
@@ -113,17 +113,17 @@ const countryData = {
     },
 
     "tf": {
-        image: "banners/.png",
+        image: "banners/transformers.png",
         title: "Transformers",
-        desc: "",
+        desc: "Transformers is a toy line, and eventual media franchise, which features robots that can “transform” into other items such as cars, trucks, and appliances. The first generation of toys lasted from 1984-1990 and was made by Hasbro and Takara. Once the first generation of toys was released, there was a Marvel comic series, animated TV series that lasted from 1984-1987, and a 1986 animated film.",
         more: "https://en.wikipedia.org/wiki/Transformers:_Generation_1"
     },
 
     "got": {
-        image: "banners/.png",
+        image: "banners/got.png",
         title: "Game of Thrones",
-        desc: "",
-        more: "https://en.wikipedia.org/wiki/Transformers:_Generation_1"
+        desc: "Game of Thrones was a TV series that aired from 2011-2019, based on George RR Martin’s A Song of Fire And Ice novel series. Set in the continents of Westeros and Essos, the series follows several story arcs concerning various parts of the large ensemble cast. The series brought record viewership to HBO and was highly praised for its production and stories, but also criticized for its gratuitous nudity and graphic violence. In 2022, a prequel series called House of the Dragon premiered on HBO.",
+        more: "https://en.wikipedia.org/wiki/TGame_of_Thrones"
     },
 
     "wanda": {
@@ -187,10 +187,10 @@ function show(e) {
     const title = document.getElementById('title');
     const desc = document.getElementById('desc');
     const more = document.getElementById('moreinfo');
-    info.style.display = "block";
     const thisCountry = countryData[e.currentTarget.id];
     banner.src = thisCountry.image;
     title.innerHTML = thisCountry.title;
     desc.innerHTML = thisCountry.desc;
     more.href = thisCountry.more;
+    info.style.display = "block";
 }
