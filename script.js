@@ -167,16 +167,12 @@ function setup() {
     //I know that below is setting up the groundwork for the info div to popup and go away
     const back = document.getElementById('back');
     const bg = document.getElementById('bg');
-    const info = document.getElementById('info');
     const dragon = document.getElementById('dragon');
     back.addEventListener("click", goBack);
     bg.addEventListener("click", goBack);
     dragon.addEventListener("click", show);
 
-    //this make info div go bye bye
-    function goBack() {
-        info.style.display = "none";
-    }
+    
 }
 
 //This is roughly what we threw together that one Friday morning except I forgot what the  popUp(BLANK) was referring to
@@ -193,4 +189,10 @@ function show(e) {
     desc.innerHTML = thisCountry.desc;
     more.href = thisCountry.more;
     info.style.display = "block";
+}
+
+//this make info div go bye bye
+function goBack() {
+    const info = document.getElementById('info');
+    info.style.display = "none";
 }

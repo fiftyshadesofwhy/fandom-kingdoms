@@ -57,6 +57,16 @@ a {
     cursor:pointer;
 }
 
+#gmap > g {
+    transition-property: filter;
+    transition-duration: 0.2s;
+}
+
+#gmap > g:hover {
+    filter: saturate(2) brightness(120%);
+    /* stroke-width: 15px; */
+}
+
 .land {
     stroke:black;
     stroke-width:3px;
@@ -289,7 +299,38 @@ a {
 
 #pprstrip {
     width: 15vw;
-    position:absolute;
-    top:0;
-    right: 5vw;
+    position:fixed;
+    top:-0.1vw;
+}
+
+#svg344 {
+    position:fixed;
+    width:3.5vw;
+    right:12.5vw;
+    top:0.9vw;
+}
+
+#infoi {
+    font-family: "edding-780", sans-serif;
+    position:fixed;
+    font-size:3vw;
+    right:20.5vw;
+    top:0.15vw;
+    color: var(--ink);
+}
+
+#infocrcl {
+    position:fixed;
+    right:19.25vw;
+    top:0.5vw;
+    height:3vw;
+    width:3vw;
+    border-radius:50%;
+    background: #00000000;
+    border: 0.3vw var(--ink) solid;
+}
+
+#infocrcl:hover {
+    transition: color 0.1s;
+    color:black;
 }
