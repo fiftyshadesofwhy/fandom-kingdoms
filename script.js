@@ -123,7 +123,7 @@ const countryData = {
         image: "banners/got.png",
         title: "Game of Thrones",
         desc: "Game of Thrones was a TV series that aired from 2011-2019, based on George RR Martin’s A Song of Fire And Ice novel series. Set in the continents of Westeros and Essos, the series follows several story arcs concerning various parts of the large ensemble cast. The series brought record viewership to HBO and was highly praised for its production and stories, but also criticized for its gratuitous nudity and graphic violence. In 2022, a prequel series called House of the Dragon premiered on HBO.",
-        more: "https://en.wikipedia.org/wiki/TGame_of_Thrones"
+        more: "https://en.wikipedia.org/wiki/Game_of_Thrones"
     },
 
     "wanda": {
